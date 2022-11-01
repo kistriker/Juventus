@@ -24,7 +24,8 @@ Meniul surprindema:
 ![Meniu surprindema](https://user-images.githubusercontent.com/115071059/199203246-49663a87-5949-4928-8214-5a9d7c9f3dc7.png)
 
 Primele butoane cu numele rivalellor iti ofera informatii despre dietele impuse jucatorilor rivalelor  
-Butonul antrenor iti ofera informatii despre tipul de antrenament pe care il prefera antrenorul actual  
+Butonul Antrenor iti ofera informatii despre tipul de antrenament pe care il prefera antrenorul actual  
+Butonul Stadion iti afiseaza numele stadionului
 Butonul Top Stories iti ofera cele mai interesante stiri sportive despre juventus  
 Butonul return te aduce inapoi la pagina principala  
 
