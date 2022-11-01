@@ -25,7 +25,7 @@ Meniul surprindema:
 
 Primele butoane cu numele rivalellor iti ofera informatii despre dietele impuse jucatorilor rivalelor  
 Butonul Antrenor iti ofera informatii despre tipul de antrenament pe care il prefera antrenorul actual  
-Butonul Stadion iti afiseaza numele stadionului
+Butonul Stadion iti afiseaza numele stadionului  
 Butonul Top Stories iti ofera cele mai interesante stiri sportive despre juventus  
 Butonul return te aduce inapoi la pagina principala  
 
