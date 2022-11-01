@@ -68,7 +68,7 @@ public class JFrame3 {
         button7.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-
+                MainWindow.test();
             }
         });
         AS_ROMA.addActionListener(new ActionListener() {
