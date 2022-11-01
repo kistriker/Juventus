@@ -15,6 +15,7 @@ public class JFrame3 {
     private JButton button4;
     private JTextArea textArea1;
     private JButton AS_ROMA;
+    private JButton topStoriesButton;
 
     public JFrame3(){
 
@@ -77,10 +78,18 @@ public class JFrame3 {
                 textArea1.setText(AS_Roma.test());
             }
         });
+        topStoriesButton.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                Top_Stories1.test();
+            }
+        });
     }
     public static void test(){
         JFrame frame = new JFrame("Surprindema");
         frame.setContentPane(new JFrame3().panel1);
+        //frame.setLocation(600,300);
+        frame.setLocation(400,50);
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         frame.pack();
         frame.setVisible(true);

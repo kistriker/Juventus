@@ -2,6 +2,7 @@ import javax.swing.*;
 
 import Fotbalist.Rivale;
 
+import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.util.ArrayList;
@@ -139,6 +140,7 @@ public class JFrame2 {
     public static void test(ArrayList<Rivale> arr){
         JFrame frame = new JFrame("Rivale");
         frame.setContentPane(new JFrame2(arr).panel);
+        frame.setLocation(30,400);
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         frame.pack();
         frame.setVisible(true);

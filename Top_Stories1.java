@@ -1,8 +1,10 @@
 import javax.swing.*;
+import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
 public class Top_Stories1 {
+    private JPanel panel;
     private JButton suarezToJuveButton;
     private JButton TOYSTORYButton;
     private JButton joaoFelixToJuveButton;
@@ -115,5 +117,17 @@ public class Top_Stories1 {
                 }
             }
         });
+    }
+    public static void test() {
+        JFrame frame = new JFrame("Top Stories");
+        ImageIcon image= new ImageIcon("src/logo.png");
+        frame.setIconImage(image.getImage());
+        frame.setContentPane(new Top_Stories1().panel);
+        frame.setPreferredSize(new Dimension(380,380));
+        frame.setLocation(800,50);
+        frame.getContentPane().setBackground(Color.black);
+        frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        frame.pack();
+        frame.setVisible(true);
     }
 }
