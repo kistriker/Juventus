@@ -3,7 +3,7 @@
 
 Meniul principal:
 
-1.Bani castigati/pierduti perioada transferuri-iti afiseaza suma de bani obtinuta sau pierduta in perioada de transferuri
+1.Bani castigati/pierduti perioada transferuri-iti afiseaza suma de bani obtinuta sau pierduta in perioada de transferuri\n
 2.Identificare fotbalist transferat-iti identifica daca jucatorul a fost transferat si este in lot sau nu
 3.Verificare fair play financiar-iti zice daca echipa nu respecta fair play-ul financiar si va fi sanctionata sau nu
 4.Conditie de transferare jucator-iti spune daca jucatorul (merita-verifica daca suma de transfer este adecvata sau nu) va fi transferat sau nu
