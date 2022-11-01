@@ -141,6 +141,8 @@ public class JFrame2 {
         JFrame frame = new JFrame("Rivale");
         frame.setContentPane(new JFrame2(arr).panel);
         frame.setLocation(30,400);
+        ImageIcon image= new ImageIcon("src/logo.png");
+        frame.setIconImage(image.getImage());
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         frame.pack();
         frame.setVisible(true);

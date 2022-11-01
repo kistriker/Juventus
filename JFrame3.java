@@ -1,6 +1,7 @@
 import Frame3.*;
 
 import javax.swing.*;
+import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
@@ -26,7 +27,8 @@ public class JFrame3 {
                 Inter.test();
                 //textArea1.setText(Inter.test());
                 //String w=Inter.Oras();
-                textArea1.setText(Inter.Oras());
+                String f="";
+                textArea1.setText(Inter.Oras(f));
             }
         });
         button2.addActionListener(new ActionListener() {
@@ -57,7 +59,8 @@ public class JFrame3 {
             @Override
             public void actionPerformed(ActionEvent e) {
 
-                Stadion.getInstance("Alabala Stadium");
+                textArea1.setText(Stadion.getInstance("Alabala Stadium").getNume());
+
             }
         });
         button6.addActionListener(new ActionListener() {
@@ -90,6 +93,9 @@ public class JFrame3 {
         frame.setContentPane(new JFrame3().panel1);
         //frame.setLocation(600,300);
         frame.setLocation(400,50);
+        frame.setPreferredSize(new Dimension(380,380));
+        ImageIcon image= new ImageIcon("src/logo.png");
+        frame.setIconImage(image.getImage());
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         frame.pack();
         frame.setVisible(true);

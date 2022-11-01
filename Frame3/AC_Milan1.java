@@ -18,7 +18,8 @@ public class AC_Milan1 extends AC_Milan{
         msg += " is better than ";
         String msg2=milano.getNickname();
         msg +=msg2;
-        msg += " don't you think ?";
+        msg += " don't you think ?\n";
+        msg +="Meniu dieta:\nBreakfast: lapte cu cereale\nLunch No 1: ciorba de pui\nLunch No 2: icre si nuggets\nSnacks:croissant chipicao\nDinner No 1: salata Cesar\nDinner No 2: creveti\n";
         //String msg=milano.getName() + " is better than " + milano.getNickname() + " don't you think ?";4
         return msg;
     }

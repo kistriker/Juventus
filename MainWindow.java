@@ -215,23 +215,23 @@ public class MainWindow {
     }
 
         public static void main(String[] args) {
-        JFrame frame = new JFrame("Juventus");
-            //ImageIcon icon = new ImageIcon("D:\\Games\\Exercitii\\Incercare proiect 2 lab POO\\Proiect2\\Images\\logo.jpg");
-            //frame.setIconImage(icon.getImage());
-            //Image icon = Toolkit.getDefaultToolkit().getImage("logo.jpg");
-            //setIconImage(Toolkit.getDefaultToolkit().getImage(MainWindow.);
-            //frame.setIconImage(icon);
-            //frame.setLayout(null);
-            //ImageIcon img = new ImageIcon("./logo.jpg");
-                       ImageIcon image= new ImageIcon("src/logo.png");
-            //ImageIcon image= new ImageIcon("src/logo.png");
-                       frame.setIconImage(image.getImage());
-        frame.setContentPane(new MainWindow().panel);
-        frame.setPreferredSize(new Dimension(380,380));
-            frame.getContentPane().setBackground(Color.black);
-        frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-        frame.pack();
-        frame.setVisible(true);
+                JFrame frame = new JFrame("Juventus");
+                //ImageIcon icon = new ImageIcon("D:\\Games\\Exercitii\\Incercare proiect 2 lab POO\\Proiect2\\Images\\logo.jpg");
+                //frame.setIconImage(icon.getImage());
+                //Image icon = Toolkit.getDefaultToolkit().getImage("logo.jpg");
+                //setIconImage(Toolkit.getDefaultToolkit().getImage(MainWindow.);
+                //frame.setIconImage(icon);
+                //frame.setLayout(null);
+                //ImageIcon img = new ImageIcon("./logo.jpg");
+                ImageIcon image= new ImageIcon("src/logo.png");
+                //ImageIcon image= new ImageIcon("src/logo.png");
+                frame.setIconImage(image.getImage());
+                frame.setContentPane(new MainWindow().panel);
+                frame.setPreferredSize(new Dimension(380,450));
+                frame.getContentPane().setBackground(Color.black);
+                frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+                frame.pack();
+                frame.setVisible(true);
     }
 
 
@@ -241,4 +241,25 @@ public class MainWindow {
         }catch (Exception e){}
     }
 
+
+
+    public static void test() {//pentru return
+        JFrame frame = new JFrame("Juventus");
+        //ImageIcon icon = new ImageIcon("D:\\Games\\Exercitii\\Incercare proiect 2 lab POO\\Proiect2\\Images\\logo.jpg");
+        //frame.setIconImage(icon.getImage());
+        //Image icon = Toolkit.getDefaultToolkit().getImage("logo.jpg");
+        //setIconImage(Toolkit.getDefaultToolkit().getImage(MainWindow.);
+        //frame.setIconImage(icon);
+        //frame.setLayout(null);
+        //ImageIcon img = new ImageIcon("./logo.jpg");
+        ImageIcon image= new ImageIcon("src/logo.png");
+        //ImageIcon image= new ImageIcon("src/logo.png");
+        frame.setIconImage(image.getImage());
+        frame.setContentPane(new MainWindow().panel);
+        frame.setPreferredSize(new Dimension(380,380));
+        frame.getContentPane().setBackground(Color.black);
+        frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        frame.pack();
+        frame.setVisible(true);
+    }
 }

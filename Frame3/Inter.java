@@ -22,6 +22,7 @@ public class Inter {
     }*/
     public static String Oras(String i){
         String msg="Interistii sunt albastri!";
+        msg +="Meniu dieta:\nBreakfast: sandwich cu parizer cu ardei\nLunch No 1: ciorba de pui\nLunch No 2: omleta cu cartofi si carne\nSnacks:fructe proaspete\nDinner No 1: salata de rosii cu ceapa si ton in ulei de masline\nDinner No 2: baton proteic\n";
         return msg;
     }
     public static void test() {

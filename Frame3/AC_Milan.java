@@ -9,7 +9,7 @@ public class AC_Milan {
         this.nickname=nickname;
     }
     public AC_Milan(){
-        nume="unknown";
+        nume="Unknown";
         nickname="losers";
     }
     public String getName(){

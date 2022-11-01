@@ -18,6 +18,8 @@ public class FC_Torino {
     public static String test(){
         String msg;
         msg="Torino are gradul de pericol "+getLevel();
+        msg+="\nOre de antrenament :\nLuni-Vineri: 6 ore\nSambata: 2 ore\nDuminica: 2 0re\n";
+        msg+="Nu au restrictii la dieta\n";
         return msg;
     }
 }

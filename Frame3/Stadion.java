@@ -16,4 +16,9 @@ public class Stadion {
         }
         return instance;
     }
+    public String getNume(){return nume;}
+    public static void test(){
+        Stadion a = new Stadion("Giuseppe Meazza");
+
+    }
 }
