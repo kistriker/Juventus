@@ -10,9 +10,9 @@ import java.util.Scanner;
 import java.lang.Thread;
 
 public class MainWindow {
-    private JButton button1;
+    //private JButton button1;
     private JButton button2;
-    private JButton button3;
+    //private JButton button3;
     private JButton button4;
     private JButton button5;
     private JButton button6;
@@ -59,15 +59,18 @@ public class MainWindow {
         StringBuffer sb = new StringBuffer("Hello ");
         sb.append("Java"); // now original string is changed
         System.out.println(sb);
-        button1.addActionListener(new ActionListener() {
+        /*button1.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
                 txtText.setText("");//sa curete text boxul la fiecare apasare de buton
                 suma = s1.getSumaTransfer() + s2.getSumaTransfer() + s3.getSumaTransfer();
                 //System.out.println("Suma este:" + suma + " de milioane!");
                 jlb.setText("Suma este:" + suma + " de milioane!");
+                String data="S-a apasat Butonul Bani castigati/pierduti perioada transferuri";
+                Log3.setLog(data);
             }
         });
+         */
         button2.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
@@ -93,9 +96,11 @@ public class MainWindow {
                     jlb.setText("Jucatorul nu exista in echipa! Cauta la alta echipa!");
                 }
                 txtText.setText("");
+                String data="S-a apasat Butonul Identificare fotbalist transferat";
+                Log3.setLog(data);
             }
         });
-        button3.addActionListener(new ActionListener() {
+        /*button3.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
                 txtText.setText("");
@@ -106,8 +111,11 @@ public class MainWindow {
                 else
                     //System.out.println("Out din Europa!");
                     jlb.setText("Out din Europa!");
+                String data="S-a apasat Butonul Verificare fair play financiar";
+                Log3.setLog(data);
             }
         });
+        */
         button4.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {//de perfectionat 4-ule
@@ -156,6 +164,8 @@ public class MainWindow {
                         txtText.setText("");
                     }
                 }
+                String data="S-a apasat Butonul Conditie de transferare jucator";
+                Log3.setLog(data);
             }
         });
         button5.addActionListener(new ActionListener() {
@@ -166,14 +176,17 @@ public class MainWindow {
                     //System.out.println(s3.toString());
                     //txtText.setBackground(Color.GRAY);
                     txtText.setText("");
-                    txtText.setText(s1.toString() + "\n" + s2.toString() + "\n" + s3.toString());
+                    //la proiect nu trebuie date hardcodate//txtText.setText(s1.toString() + "\n" + s2.toString() + "\n" + s3.toString());
+                    Main.test();
+                    String data="S-a apasat Butonul Fotbalisti";
+                    Log3.setLog(data);
                 }
         });
         button6.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-                txtText.setText("");
-                txtText.setText(rivale.get(0).nume + "\n" + rivale.get(1).nume + "\n" +rivale.get(2).nume + "\n" +rivale.get(3).nume + "\n" +rivale.get(4).nume + "\n" +rivale.get(5).nume + "\n");
+                //date hardcodate//txtText.setText("");
+                //date hardcodate//txtText.setText(rivale.get(0).nume + "\n" + rivale.get(1).nume + "\n" +rivale.get(2).nume + "\n" +rivale.get(3).nume + "\n" +rivale.get(4).nume + "\n" +rivale.get(5).nume + "\n");
 
                 JFrame2.test(rivale);
                 //try {
@@ -185,6 +198,8 @@ public class MainWindow {
                 Napoli1.test();
                 Lazio.test();
                 AS_Roma1.test();
+                String data="S-a apasat Butonul Rivale si s-a deschis o fereastra noua";
+                Log3.setLog(data);
             }
         });
         button7.addActionListener(new ActionListener() {
@@ -195,6 +210,8 @@ public class MainWindow {
                 //jlb.setText("Multumim ca ati apelat la noi, va mai asteptam!");
                 //sleep(2000);
                 System.exit(0);
+                String data="S-a apasat Butonul Bye Bye Juve si s-a inchis programul";
+                Log3.setLog(data);
             }
         });
         button8.addActionListener(new ActionListener() {
@@ -204,18 +221,24 @@ public class MainWindow {
                 try {
                     Juventus1.test();
                 }catch(Exception exc){}
+                String data="S-a apasat Butonul Juventus si s-a accesat pagina oficiala Juventus";
+                Log3.setLog(data);
             }
         });
         surprindemaButton.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
                 JFrame3.test();
+                String data="S-a apasat Butonul Surprindema! si s-a deschis o fereastra noua";
+                Log3.setLog(data);
             }
         });
     }
 
-        public static void main(String[] args) {
+        /*public static void main(String[] args) {
                 JFrame frame = new JFrame("Juventus");
+                String data="S-a accesat si deschis proiectul";
+                Log3.setLog(data);
                 //ImageIcon icon = new ImageIcon("D:\\Games\\Exercitii\\Incercare proiect 2 lab POO\\Proiect2\\Images\\logo.jpg");
                 //frame.setIconImage(icon.getImage());
                 //Image icon = Toolkit.getDefaultToolkit().getImage("logo.jpg");
@@ -232,7 +255,7 @@ public class MainWindow {
                 frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
                 frame.pack();
                 frame.setVisible(true);
-    }
+    }*/
 
 
     public static void sleep(int time) {
@@ -245,15 +268,9 @@ public class MainWindow {
 
     public static void test() {//pentru return
         JFrame frame = new JFrame("Juventus");
-        //ImageIcon icon = new ImageIcon("D:\\Games\\Exercitii\\Incercare proiect 2 lab POO\\Proiect2\\Images\\logo.jpg");
-        //frame.setIconImage(icon.getImage());
-        //Image icon = Toolkit.getDefaultToolkit().getImage("logo.jpg");
-        //setIconImage(Toolkit.getDefaultToolkit().getImage(MainWindow.);
-        //frame.setIconImage(icon);
-        //frame.setLayout(null);
-        //ImageIcon img = new ImageIcon("./logo.jpg");
+        String data="S-a accesat si deschis proiectul";
+        Log3.setLog(data);
         ImageIcon image= new ImageIcon("src/logo.png");
-        //ImageIcon image= new ImageIcon("src/logo.png");
         frame.setIconImage(image.getImage());
         frame.setContentPane(new MainWindow().panel);
         frame.setPreferredSize(new Dimension(380,380));
