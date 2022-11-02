@@ -113,7 +113,7 @@ import java.net.URISyntaxException;*/
             }
         }
     }*/
-    public static void main(String[] args) {
+    /*public static void main(String[] args) {
         JFrame frame = new JFrame("Napoli");
         frame.setSize(300, 325);
         //JLabel image = new JLabel();
@@ -122,5 +122,5 @@ import java.net.URISyntaxException;*/
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         frame.pack();
         frame.setVisible(true);
-    }
+    }*/
 }

@@ -25,6 +25,8 @@ public class Top_Stories1 {
                 }catch(Exception ex){
 
                 }
+                String data="S-a apasat Butonul TOY STORY din cadrul ferestrei Top Stories";
+                Log3.setLog(data);
             }
         });
         messiToJuveButton.addActionListener(new ActionListener() {
@@ -35,6 +37,8 @@ public class Top_Stories1 {
                 }catch(Exception ex){
 
                 }
+                String data="S-a apasat Butonul Messi To Juve din cadrul ferestrei Top Stories";
+                Log3.setLog(data);
             }
         });
         ronaldoToPSGButton.addActionListener(new ActionListener() {
@@ -45,6 +49,8 @@ public class Top_Stories1 {
                 }catch(Exception ex){
 
                 }
+                String data="S-a apasat Butonul Ronaldo To Juve din cadrul ferestrei Top Stories";
+                Log3.setLog(data);
             }
         });
         calciopoliButton.addActionListener(new ActionListener() {
@@ -55,6 +61,8 @@ public class Top_Stories1 {
                 }catch(Exception ex){
 
                 }
+                String data="S-a apasat Butonul Calciopoli din cadrul ferestrei Top Stories";
+                Log3.setLog(data);
             }
         });
         haland2MilionButton.addActionListener(new ActionListener() {
@@ -65,6 +73,8 @@ public class Top_Stories1 {
                 }catch(Exception ex){
 
                 }
+                String data="S-a apasat Butonul Haland 2 milion din cadrul ferestrei Top Stories";
+                Log3.setLog(data);
             }
         });
         mbappeToJuveButton.addActionListener(new ActionListener() {
@@ -75,6 +85,8 @@ public class Top_Stories1 {
                 }catch(Exception ex){
 
                 }
+                String data="S-a apasat Butonul Mbappe To Juve din cadrul ferestrei Top Stories";
+                Log3.setLog(data);
             }
         });
         allisonToJuveButton.addActionListener(new ActionListener() {
@@ -85,6 +97,8 @@ public class Top_Stories1 {
                 }catch(Exception ex){
 
                 }
+                String data="S-a apasat Butonul Alisson To Juve din cadrul ferestrei Top Stories";
+                Log3.setLog(data);
             }
         });
         neymarToJuveButton.addActionListener(new ActionListener() {
@@ -95,6 +109,8 @@ public class Top_Stories1 {
                 }catch(Exception ex){
 
                 }
+                String data="S-a apasat Butonul Neymar To Juve din cadrul ferestrei Top Stories";
+                Log3.setLog(data);
             }
         });
         joaoFelixToJuveButton.addActionListener(new ActionListener() {
@@ -105,6 +121,8 @@ public class Top_Stories1 {
                 }catch(Exception ex){
 
                 }
+                String data="S-a apasat Butonul Joao Felix To Juve din cadrul ferestrei Top Stories";
+                Log3.setLog(data);
             }
         });
         suarezToJuveButton.addActionListener(new ActionListener() {
@@ -115,11 +133,15 @@ public class Top_Stories1 {
                 }catch(Exception ex){
 
                 }
+                String data="S-a apasat Butonul Suarez To Juve din cadrul ferestrei Top Stories";
+                Log3.setLog(data);
             }
         });
     }
     public static void test() {
         JFrame frame = new JFrame("Top Stories");
+        String data="S-a deschis fereastra Top Stories ";
+        Log3.setLog(data);
         ImageIcon image= new ImageIcon("src/logo.png");
         frame.setIconImage(image.getImage());
         frame.setContentPane(new Top_Stories1().panel);
