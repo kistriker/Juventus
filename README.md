@@ -38,7 +38,7 @@ Meniul Top Stories:
 Iti ofera ultimul racnet in fotbal  
 
 
-Diagrama UML:
+Diagrama UML:  
+![UML](https://user-images.githubusercontent.com/115071059/199472154-3d52fdb5-9042-4c46-afc1-1dabd1c737ca.jpeg)
 
-![image](https://user-images.githubusercontent.com/115071059/199459391-3643a77c-4aa6-449b-b4ec-d78aeb99bb58.png)
 
