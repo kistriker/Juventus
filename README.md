@@ -10,7 +10,7 @@ Meniul principal:
 
 1.Identificare fotbalist transferat-iti identifica daca jucatorul a fost transferat si este in lot sau nu  
 2.Conditie de transferare jucator-iti spune daca jucatorul (merita-verifica daca suma de transfer este adecvata sau nu) va fi transferat sau nu  
-3.Fotbalisti-iti te lasa sa creezi o lista de fotbalisti care vor fi tinte de transfer
+3.Fotbalisti-iti te lasa sa creezi o lista de fotbalisti care vor fi tinte de transfer  
 4.Rivale-iti deschide o pagina noua...  
 5.Juventus-te duce la pagina oficiala a clubului  
 6.Surprindema!-iti deschide o pagina noua...  
