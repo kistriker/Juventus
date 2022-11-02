@@ -18,6 +18,8 @@ public class JFrame3 {
     private JButton AS_ROMA;
     private JButton topStoriesButton;
     private JButton dietaButton;
+    private JButton btnRefresh;
+    private JButton btnClear;
 
     public JFrame3(){
 
@@ -121,7 +123,31 @@ public class JFrame3 {
             @Override
             public void actionPerformed(ActionEvent e) {
                 Main2.test();
-                textArea1.setText(Main2.msg);
+                /*String msg=Dialog3.getMsg();
+                if(msg.equals("")){
+                    textArea1.setText("");
+                }
+                else
+                    textArea1.setText(Dialog3.getMsg());
+                */
+            }
+        });
+        btnRefresh.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                String msg=Dialog3.getMsg();
+                if(msg.equals("")){
+                    textArea1.setText("");
+                }
+                else
+                    textArea1.setText(Dialog3.getMsg());
+
+            }
+        });
+        btnClear.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                textArea1.setText("");
             }
         });
     }

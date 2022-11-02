@@ -4,7 +4,7 @@ import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
 public class Dialog3 extends JFrame{
-    public StringBuffer msg = new StringBuffer("");
+    public static StringBuffer msg = new StringBuffer("");
     public Dialog3(String title){
         //set size and position
         super(title);
@@ -26,8 +26,12 @@ public class Dialog3 extends JFrame{
                 Dialog2 dialog = new Dialog2(Dialog3.this,"Info Mancare");
                 dialog.setModal(true);
                 dialog.setVisible(true);
-                if(dialog.getName()=="")
+                if(dialog.getName().isEmpty())
                     strData = "Dialog Cancelled";
+                else if(dialog.getName().equals("delete")) {
+                    msg.delete(0, msg.length());
+                    msg.append("");
+                }
                 else{
                     strData = dialog.getName() + "\n";
                     //ta.setText(strData);
@@ -36,5 +40,8 @@ public class Dialog3 extends JFrame{
                 }
             }
         });
+    }
+    public static String getMsg(){
+        return msg.toString();
     }
 }
