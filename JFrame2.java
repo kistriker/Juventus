@@ -31,11 +31,15 @@ public class JFrame2 {
                 if(napoliCheckBox.isSelected()) {
                     msg.append("Napoli \n");//msr +="Napoli + \n";
                     textPane1.setText(msg.toString());//textPane1.setText(msg);
+                    String data="S-a bifat casuta aferenta lui Napoli";
+                    Log3.setLog(data);
                 }
                 //textPane1.setText("Napoli");
                 else {
                     msg.delete(0, 6);
                     textPane1.setText(msg.toString());
+                    String data="S-a debifat casuta aferenta lui Napoli";
+                    Log3.setLog(data);
                 }
             }
         });
@@ -49,12 +53,16 @@ public class JFrame2 {
                 if(interCheckBox.isSelected()) {
                     msg.append("Inter \n");
                     textPane1.setText(msg.toString());
+                    String data="S-a bifat casuta aferenta lui Inter";
+                    Log3.setLog(data);
                 }
                     //textPane1.setText("Inter");
                 //else textPane1.setText("");
                 else{
                     msg.delete(7, 13);
                     textPane1.setText(msg.toString());
+                    String data="S-a debifat casuta aferenta lui Inter";
+                    Log3.setLog(data);
                 }
             }
         });
@@ -70,10 +78,14 @@ public class JFrame2 {
                 if(ACMilanCheckBox.isSelected()){
                     msg.append("AC Milan \n");
                     textPane1.setText(msg.toString());
+                    String data="S-a bifat casuta aferenta lui AC Milan";
+                    Log3.setLog(data);
                 }
                 else{
                     msg.delete(14, 23);
                     textPane1.setText(msg.toString());
+                    String data="S-a debifat casuta aferenta lui AC Milan";
+                    Log3.setLog(data);
                 }
             }
         });
@@ -89,10 +101,14 @@ public class JFrame2 {
                 if(lazioCheckBox.isSelected()){
                     msg.append("Lazio \n");
                     textPane1.setText(msg.toString());
+                    String data="S-a bifat casuta aferenta lui Lazio";
+                    Log3.setLog(data);
                 }
                 else{
                     msg.delete(24, 30);
                     textPane1.setText(msg.toString());
+                    String data="S-a debifat casuta aferenta lui Lazio";
+                    Log3.setLog(data);
                 }
 
             }
@@ -109,10 +125,14 @@ public class JFrame2 {
                 if(ASRomaCheckBox.isSelected()){
                     msg.append("AS Roma \n");
                     textPane1.setText(msg.toString());
+                    String data="S-a bifat casuta aferenta lui AS Roma";
+                    Log3.setLog(data);
                 }
                 else{
                     msg.delete(31, 39);
                     textPane1.setText(msg.toString());
+                    String data="S-a debifat casuta aferenta lui AS Roma";
+                    Log3.setLog(data);
                 }
             }
         });
@@ -128,10 +148,14 @@ public class JFrame2 {
                 if(torinoCheckBox.isSelected()){
                     msg.append("Torino \n");
                     textPane1.setText(msg.toString());
+                    String data="S-a bifat casuta aferenta lui Torino";
+                    Log3.setLog(data);
                 }
                 else{
                     msg.delete(40, 47);
                     textPane1.setText(msg.toString());
+                    String data="S-a debifat casuta aferenta lui Torino";
+                    Log3.setLog(data);
                 }
             }
         });
@@ -139,6 +163,8 @@ public class JFrame2 {
 
     public static void test(ArrayList<Rivale> arr){
         JFrame frame = new JFrame("Rivale");
+        String data="S-a deschis fereastra Rivale";
+        Log3.setLog(data);
         frame.setContentPane(new JFrame2(arr).panel);
         frame.setLocation(30,400);
         ImageIcon image= new ImageIcon("src/logo.png");
