@@ -26,9 +26,9 @@ Meniul surprindema:
 
 ![Meniu5](https://user-images.githubusercontent.com/115071059/199453732-529f88d2-1020-4cf0-973c-fc3bd491135b.png)
 
-Primul buton te lasa sa le faci o dieta speciala 
+Primul buton te lasa sa le faci o dieta speciala   
 Butonul Top Stories iti ofera cele mai interesante stiri sportive despre juventus  
-Butonul log iti afiseaza un warning in fisierul log creat
+Butonul log iti afiseaza un warning in fisierul log creat  
 Butonul return te aduce inapoi la pagina principala  
 
 Meniul Top Stories:
